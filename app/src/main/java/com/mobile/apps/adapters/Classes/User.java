@@ -1,6 +1,9 @@
 package com.mobile.apps.adapters.Classes;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String imageUrl;
     private String name;
     private String subject;
